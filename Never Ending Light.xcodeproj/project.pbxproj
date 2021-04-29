@@ -11,8 +11,8 @@
 		E1D33B632635E38B00D13B4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D33B622635E38B00D13B4F /* SceneDelegate.swift */; };
 		E1D33B652635E38B00D13B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D33B642635E38B00D13B4F /* ViewController.swift */; };
 		E1D33B682635E38B00D13B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D33B662635E38B00D13B4F /* Main.storyboard */; };
-		E1D33B6A2635E38E00D13B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D33B692635E38E00D13B4F /* Assets.xcassets */; };
 		E1D33B6D2635E38E00D13B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D33B6B2635E38E00D13B4F /* LaunchScreen.storyboard */; };
+		E1D33B762635E6FA00D13B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D33B752635E6FA00D13B4F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		E1D33B622635E38B00D13B4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E1D33B642635E38B00D13B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1D33B672635E38B00D13B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1D33B692635E38E00D13B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D33B6C2635E38E00D13B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D33B6E2635E38E00D13B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D33B752635E6FA00D13B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				E1D33B622635E38B00D13B4F /* SceneDelegate.swift */,
 				E1D33B642635E38B00D13B4F /* ViewController.swift */,
 				E1D33B662635E38B00D13B4F /* Main.storyboard */,
-				E1D33B692635E38E00D13B4F /* Assets.xcassets */,
+				E1D33B752635E6FA00D13B4F /* Assets.xcassets */,
 				E1D33B6B2635E38E00D13B4F /* LaunchScreen.storyboard */,
 				E1D33B6E2635E38E00D13B4F /* Info.plist */,
 			);
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D33B6D2635E38E00D13B4F /* LaunchScreen.storyboard in Resources */,
-				E1D33B6A2635E38E00D13B4F /* Assets.xcassets in Resources */,
+				E1D33B762635E6FA00D13B4F /* Assets.xcassets in Resources */,
 				E1D33B682635E38B00D13B4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
